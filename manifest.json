@@ -1,0 +1,22 @@
+{
+    "BundleType": "Application",
+    "AppIcon": {
+        "18x18": "tutorial.png"
+    },
+    "AppName": {
+        "en": "News"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+    "RequiredPermissions": [
+                "http://*.echonest.com"
+                "http://*.facebook.com"
+    ],
+    "VendorIdentifier": "com.News",
+    "RequiredInterface": "1",
+    "BundleVersion": "0.1",
+    "BundleIdentifier": "News",
+    "AppName": "News",
+    "AppDescription": "News, Facebook and Twitter updates about the Artist playing."
+}
