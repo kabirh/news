@@ -45,7 +45,7 @@ function checkResponse(data) {
 }
 
 function fetchNews(artist) {
-  var url = 'http://developer.echonest.com/api/v4/artist/news?api_key=P5UNONUVKBUYT1EIZ&callback=?';
+  var url = 'http://developer.echonest.com/api/v4/artist/news?api_key=YOUR_API_KEY&callback=?';
 
   $.getJSON(url, { 'name': artist, 
                    'format':'jsonp',
